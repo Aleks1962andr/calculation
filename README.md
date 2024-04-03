@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Aleks1962andr/delt-hub.git">
-    <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <a href="https://github.com/Aleks1962andr/calculation.git">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXR4MmhrazllazlnOWZiMmJsZmN1dmY3ZWRpMG4wamg3Zndub293ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1wRulyhp5INhA8uDFv/giphy.gif" width="300"/>
   </a>
 
   <h3 align="center">Task Scheduler</h3>
