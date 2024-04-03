@@ -97,7 +97,7 @@ To get a local copy up and running follow these simple example steps:
  
 2. Input the necessary data, including square meters of the apartment and meter readings for each utility.
    
-3.The program will calculate the total cost of utility bills for the apartment and per resident based on the entered data and tariffs.
+3. The program will calculate the total cost of utility bills for the apartment and per resident based on the entered data and tariffs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
