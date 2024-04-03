@@ -5,7 +5,7 @@
     <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXR4MmhrazllazlnOWZiMmJsZmN1dmY3ZWRpMG4wamg3Zndub293ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1wRulyhp5INhA8uDFv/giphy.gif" width="300"/>
   </a>
 
-  <h3 align="center">Calculation of utilities for the apartment</h3>
+  <h3 align="center">Utility Billing Calculation Program</h3>
 
  </div>
 
@@ -40,8 +40,15 @@
 
 [[calculation Screen Shot]](https://github.com/Aleks1962andr/calculation/blob/main/flat.jpg)
 
-Calculation of all utilities for the apartment and for each person living in it
-This project is a simple task scheduler built using React. It allows users to plan their tasks for the day or multiple days by inputting the task into the input window. The entered tasks are added to a common array of tasks and displayed in a list with numbering as "Task №(sequential number)". The functionality includes marking a task as completed by clicking on the "Task №" word, and deleting a task by clicking on the delete icon. Pressing enter without filling the input does not result in an empty line being added to the array. Additionally, the program includes a feature to track and display the date, day of the week, and time.
+This program calculates utility bills for an apartment based on fixed expenses and meter readings. It calculates bills for rent, electricity, gas, cold water, hot water, and heating according to the current tariffs. The cost of all utilities for the apartment and for each resident of the apartment is calculated for each service. The calculation block is implemented in JavaScript. The calculation is based on the following tariffs:
+- Rent: 10₴ per square meter;
+- Gas: 9.75₴ per 1 cubic meter;
+- Electricity: 2.64₴ per 1 kWh;
+- Cold water: 24.52₴ per 1 cubic meter;
+- Hot water: 70.12₴ per 1 cubic meter;
+- Heating: 1539.50₴ per 1 Gcal.
+  
+The tariff directory is specified in index.html with the id "price".
 
 Use the `BLANK_README.md` to get started.
 
@@ -52,8 +59,8 @@ Use the `BLANK_README.md` to get started.
 
 
 * <img src="https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript&logoColor=whait"/>
-* <img src="https://img.shields.io/badge/React-black?style=for-the-badge&logo=React&logoColor=whait"/>
-* <img src="https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=Node.js&logoColor=whait"/>
+* <img src="https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=whait"/>
+* <img src="https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=whait"/>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
