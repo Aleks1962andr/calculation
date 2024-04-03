@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="animate one">
+         <span>П</span><span>л</span><span>а</span><span>т</span><span>е</span><span>ж</span><span>и</span> &nbsp;
+         <span>п</span><span>о</span>&nbsp;
+         <span>к</span><span>в</span><span>а</span><span>р</span><span>т</span><span>и</span><span>р</span><span>е</span>&nbsp;
+     </div>
+ <div class="twoColumn">
+         <div class="container">
+            <form>
+               <p>Площадь квартиры</p>
+               <span>м2
+               <input type="text" id="place" placeholder="Площадь">
+               </span>
+               <p>Показания ПУ по газу</p>
+               <span>м3
+               <input type="text" id="gas" placeholder="Газ м3">
+               </span>    
+               <p>Показания ПУ по электроэнергии</p>
+               <span>кВт-ч
+               <input type="text" id="electricity" placeholder="Электроэнергия">
+               </span>
+               <p>Показания ПУ по воде</p>
+               <span>м3
+               <input type="text" id="water" placeholder="Холодная вода">
+               </span>    
+               <p>Показания ПУ по горячей воде</p>
+               <span>м3
+               <input type="text" id="waterHot" placeholder="Горячая  вода">
+               </span>
+               <p>Показания ПУ по отоплению</p>
+               <span>гкал
+               <input type="text" id="heating" placeholder="Отопление">
+               </span>    
+               <p>Количество проживающих в квартире</p>
+               <span>ЧЕЛ
+               <input type="text" id="number" placeholder="Количество людей">
+               </span>
+               <div>
+                  <button id="rate">Посмотреть тарифы</button>
+                  <div id="price">
+                     <li class="ratePlace" value="10.00">кварплата 10₴ за м2</li>
+                     <li class="rateGas" value="9.75">газ 9,75₴ за 1м3</li>
+                     <li class="rateElectr" value="2.64">э/э 2,64₴ за 1 кВт-час</li>
+                     <li class="rateWater" value="24.52" >24,52₴ за 1 м3 ХВ</li>
+                     <li class="rateWaterHot" value="70.12" >70,12₴ за 1 м3 ГВ</li>
+                     <li class="rateHeating" value="1539.50" >1539,50₴ за 1 гкал</li>
+                  </div>
+                  <div><button id="btn">Рассчитать</button></div>
+            </form>
+            </div>
+         </div>
+         <div class="general">
+            <div id="placeSum">
+               <p>Кварплата</p>
+               <span>₴</span>
+               <span id="dividedPlace"></span>
+               <span>всего</span>
+            </div>
+            <div id="gasSum">
+               <p>Газ</p>
+               <span>₴</span>
+               <span id="dividedGas"></span>
+               <span>всего</span>
+            </div>
+            <div id="electricitySum">
+               <p>Электроэнергия</p>
+               <span>₴</span>
+               <span id="dividedElectric"></span>
+               <span>всего</span>
+            </div>
+            <div id="waterSum">
+               <p>Холодная вода</p>
+               <span>₴</span>
+               <span id="dividedWater"></span>
+               <span>всего</span>
+            </div>
+            <div id="waterHotSum">
+               <p>Горячая вода</p>
+               <span>₴</span>
+               <span id="dividedWaterHot"></span>
+               <span>всего</span>
+            </div>
+            <div id="heatingSum">
+               <p>Отопление</p>
+               <span>₴</span>
+               <span id="dividedHeatin"></span>
+               <span>всего</span>
+            </div>
+            <div id="allSum">
+               <p>Стоимость всех услуг</p>
+               <span>₴</span>
+               <span id="dividedSum"></span>
+               <span>всего</span>
+            </div>
+         </div>
+         <div class="person">
+            <div id="placePerson">
+               <p>Кварплата</p>
+               <span>₴</span>
+               <span id="dividedPlacePerson"></span>
+               <span>на человека</span>
+            </div>
+            <div id="gasPerson">
+               <p>Газ</p>
+               <span>₴</span>
+               <span id="dividedGasPerson"></span>
+               <span>на человека</span>
+            </div>
+            <div id="electricityPerson">
+               <p>Электроэнергия</p>
+               <span>₴</span>
+               <span id="dividedElectricPerson"></span>
+               <span>на человека</span>
+            </div>
+            <div id="waterPerson">
+               <p>Холодная вода</p>
+               <span>₴</span>
+               <span id="dividedWaterPerson"></span>
+               <span>на человека</span>
+            </div>
+            <div id="waterPerson">
+               <p>Горячая вода</p>
+               <span>₴</span>
+               <span id="dividedWaterHotPerson"></span>
+               <span>на человека</span>
+            </div>
+            <div id="heatingPerson">
+               <p>Отопление</p>
+               <span>₴</span>
+               <span id="dividedHeatinPerson"></span>
+               <span>на человека</span>
+            </div>
+            <div id="allSumPerson">
+               <p>Стоимость всех услуг на человека</p>
+               <span>₴</span>
+               <span id="dividedSumPerson"></span>
+               <span>всего</span>
+            </div>
+         </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
+      <script src="index.js"></script>    
+   </body>
+</html>

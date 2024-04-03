@@ -1,0 +1,207 @@
+body {
+    background-image: url("https://cdn.glitch.global/c7e1149e-e2cb-4460-82f4-c9e039bf2915/fon.jpg?v=1700655724868");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(94, 97, 93, 0.9);
+    }
+
+.animate {
+	font-size: 50px;
+    font-weight: bold;
+   text-align: center; 
+   font-family: 'Noto Serif', serif;
+    color: crimson;
+		}
+
+.animate span {
+	display: inline-block;
+}
+
+.animate span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+	animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+	animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+	animation-delay: .95s;
+}
+.one span {
+	color: crimson;
+	opacity: 0;
+	transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+	animation: revolveScale 3.0s forwards;
+}
+
+@keyframes revolveScale {
+	60% {
+		transform: translate(20px, 20px) rotate(30deg) scale(1.3);
+	}
+
+	100% {
+		transform: translate(0) rotate(0) scale(1);
+		opacity: 1;
+	}
+}
+.container{
+    width: 340px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    color: white;
+    background-color: #867070;
+           }
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif', serif;
+    margin: 20px;
+    padding: 20px;
+    }
+
+.twoColumn{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.general, .person {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+#placeSum, #gasSum, #electricitySum, #waterSum, #waterHotSum, #heatingSum {
+    border: 1px solid black;
+    border-radius: 10px; 
+    margin: 15px;
+    padding: 10px;
+    background-color: #867070;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+#allSum, #allSumPerson{
+    border: 1px solid black;
+    border-radius: 10px; 
+    margin: 15px;
+    padding: 10px;
+    background-color: #9E7676;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    color: #F1C27B;
+}
+
+#placePerson, #gasPerson, #electricityPerson, #waterPerson, #waterHotPerson, #heatingPerson {
+    border: 1px solid black;
+    border-radius: 10px; 
+    margin: 15px;
+    padding: 10px;
+    background-color: #776B5D;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+#price{
+    font-family: 'Noto Serif', serif;
+    display: none;
+    width: 250px;
+    background-color:gray;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+#rate {
+    background-color:#594545;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Noto Serif', serif;
+    width: 250px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: azure;
+           }
+#btn {background-color: #F7DBF0;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid black;
+      margin-top: 80px;
+      font-family: 'Noto Serif', serif;
+      width: 250px;
+      font-size: 20px;
+      color: red;
+             }
+.custom-popup-class{
+        width: 370px; 
+        height: 545px;
+        font-size: 16px;
+        color: #D80032;
+        background-color: rgb(255, 202, 204, 1.0);
+        border-radius: 30px; 
+              }                         
+@media all and (max-width: 541px) {
+    
+.general {
+        margin-top: 120px;      
+            }
+#placePerson, #gasPerson, #electricityPerson, #waterPerson, #waterHotPerson, #heatingPerson {
+        margin: 5px;
+        padding: 5px;
+        font-size: 14px;
+            }                    
+            }
+            
