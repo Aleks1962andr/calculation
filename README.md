@@ -104,6 +104,6 @@ Training program. Free distribution.
 
 Your Name - [Aleks1962andr](https://linkedin.com/in/alexander-andreev-5964902b8)  
 
-Project Link: [Task Scheduler](https://github.com/Aleks1962andr/calculation.git)
+Project Link: [Calculation](https://github.com/Aleks1962andr/calculation.git)
 
 
