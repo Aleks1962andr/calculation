@@ -5,7 +5,7 @@
     <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXR4MmhrazllazlnOWZiMmJsZmN1dmY3ZWRpMG4wamg3Zndub293ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1wRulyhp5INhA8uDFv/giphy.gif" width="300"/>
   </a>
 
-  <h3 align="center">Task Scheduler</h3>
+  <h3 align="center">Calculation of utilities for the apartment</h3>
 
  </div>
 
@@ -40,6 +40,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/Aleks1962andr/delt-hub/blob/main/ekran.jpg)
 
+Calculation of all utilities for the apartment and for each person living in it
 This project is a simple task scheduler built using React. It allows users to plan their tasks for the day or multiple days by inputting the task into the input window. The entered tasks are added to a common array of tasks and displayed in a list with numbering as "Task №(sequential number)". The functionality includes marking a task as completed by clicking on the "Task №" word, and deleting a task by clicking on the delete icon. Pressing enter without filling the input does not result in an empty line being added to the array. Additionally, the program includes a feature to track and display the date, day of the week, and time.
 
 Use the `BLANK_README.md` to get started.
