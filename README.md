@@ -52,8 +52,6 @@ The tariff directory is specified in index.html with the id "price".
 
 Use the `BLANK_README.md` to get started.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### Built With
 
@@ -62,8 +60,6 @@ Use the `BLANK_README.md` to get started.
 * <img src="https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=HTML5&logoColor=whait"/>
 * <img src="https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=whait"/>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -86,9 +82,6 @@ To get a local copy up and running follow these simple example steps:
    npm install
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -99,16 +92,11 @@ To get a local copy up and running follow these simple example steps:
    
 3. The program will calculate the total cost of utility bills for the apartment and per resident based on the entered data and tariffs.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 ## License
 
 Training program. Free distribution.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -118,4 +106,4 @@ Your Name - [Aleks1962andr](https://linkedin.com/in/alexander-andreev-5964902b8)
 
 Project Link: [Task Scheduler](https://github.com/Aleks1962andr/calculation.git)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
