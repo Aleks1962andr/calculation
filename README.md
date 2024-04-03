@@ -72,16 +72,14 @@ Use the `BLANK_README.md` to get started.
 To get a local copy up and running follow these simple example steps:
 1. Clone the repository.
 2. Navigate to the project directory.
-3. Run npm install to install dependencies.
-4. Run npm start to start the development server.
-5. Access the application in your browser at http://localhost:3000.
+3. Open the index.html file in any modern web browser.
 
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Aleks1962andr/delt-hub.git
+   git clone https://github.com/Aleks1962andr/calculation.git
    ```
 2. Install NPM packages
    ```sh
@@ -93,9 +91,13 @@ To get a local copy up and running follow these simple example steps:
 
 
 <!-- USAGE EXAMPLES -->
+## Usage
 
-
-This project is a simple task scheduler. It allows users to plan their tasks for the day or multiple days by inputting the task into the input window. 
+1. Open index.html file in a web browser.
+ 
+2. Input the necessary data, including square meters of the apartment and meter readings for each utility.
+   
+3.The program will calculate the total cost of utility bills for the apartment and per resident based on the entered data and tariffs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,6 +116,6 @@ Training program. Free distribution.
 
 Your Name - [Aleks1962andr](https://linkedin.com/in/alexander-andreev-5964902b8)  
 
-Project Link: [Task Scheduler](https://github.com/Aleks1962andr/delt-hub.git)
+Project Link: [Task Scheduler](https://github.com/Aleks1962andr/calculation.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
